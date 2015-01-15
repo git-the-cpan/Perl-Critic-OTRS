@@ -5,22 +5,7 @@ use strict;
 
 # ABSTRACT: A collection of handy Perl::Critic policies
 
-our $VERSION = '0.05';
-
-
-1; # End of Perl::Critic::OTRS
-
-__END__
-
-=pod
-
-=head1 NAME
-
-Perl::Critic::OTRS - A collection of handy Perl::Critic policies
-
-=head1 VERSION
-
-version 0.05
+our $VERSION = '0.06';
 
 =head1 SYNOPSIS
 
@@ -54,7 +39,7 @@ reported problems with it on some database systems.
 =head2 L<Perl::Critic::Policy::OTRS::RequireCamelCase>
 
 =head2 L<Perl::Critic::Policy::OTRS::RequireParensWithMethods>
-
+ 
 =head2 L<Perl::Critic::Policy::OTRS::RequireTrueReturnValueForModules>
 
 =head1 WHY A COLLECTION OF OTRS POLICIES?
@@ -65,46 +50,6 @@ project itself does.
 
 So every programmer who is familiar with the OTRS codebase can read and follow
 your code.
-
-=head1 BUGS
-
-Please report any bugs or feature requests to
-C<bug-perl-critic-otrs at rt.cpan.org>, or through the web interface at
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Perl-Critic-OTRS>.
-I will be notified, and then you'll automatically be notified of progress on
-your bug as I make changes.
-
-=head1 SUPPORT
-
-You can find documentation for this module with the perldoc command.
-
-    perldoc Perl::Critic::OTRS
-
-You can also look for information at:
-
-=over 4
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/Perl-Critic-OTRS>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Perl-Critic-OTRS>
-
-=item * RT: CPAN's request tracker
-
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Critic-OTRS>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Perl-Critic-OTRS>
-
-=item * Source code repository
-
-L<http://github.com/reneeb/Perl-Critic-OTRS>
-
-=back
 
 =head1 ACKNOWLEDGMENTS
 
@@ -120,16 +65,6 @@ Thanks to
 
 =back
 
-=head1 AUTHOR
-
-Renee Baecker <module@renee-baecker.de>
-
-=head1 COPYRIGHT AND LICENSE
-
-This software is Copyright (c) 2013 by Renee Baecker.
-
-This is free software, licensed under:
-
-  The Artistic License 2.0 (GPL Compatible)
-
 =cut
+
+1; # End of Perl::Critic::OTRS
