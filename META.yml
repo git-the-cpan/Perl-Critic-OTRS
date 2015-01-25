@@ -19,4 +19,4 @@ resources:
   bugtracker: http://github.com/reneeb/Perl-Critic-OTRS/issues
   homepage: http://github.com/reneeb/Perl-Critic-OTRS
   repository: http://github.com/reneeb/Perl-Critic-OTRS.git
-version: '0.06'
+version: '0.07'

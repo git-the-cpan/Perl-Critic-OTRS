@@ -23,7 +23,7 @@ my %WriteMakefileArgs = (
     "Perl::Critic" => "1.105",
     "Readonly" => "1.03"
   },
-  "VERSION" => "0.06",
+  "VERSION" => "0.07",
   "test" => {
     "TESTS" => "t/*.t"
   }
